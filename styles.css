@@ -79,6 +79,7 @@
 .sec-hero{
 
     font-size: 18px;
+    margin-bottom: 4px;
 
 }
 
@@ -184,5 +185,72 @@
 
     align-self: flex-end;
     font-weight: 800;
+
+}
+
+.action{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 64px 150px;
+
+}
+
+.action-blue{
+
+    color: #E5E7EB;
+    background-color: #3882F6;
+    border-radius: 10px;
+
+    height: 136px;
+    width: 800px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+
+.action-bold{
+
+    font-size: 18px;
+    font-weight: 800;
+
+}
+
+.action-button{
+
+
+    width: 128px;
+    height: 32px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #E5E7EB;
+    border-radius: 10px;
+    font-weight: 800;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+
+
+}
+
+.footer{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 30px;
+
+    color: #F9FAF8;
+    background-color: #1F2937;
+
 
 }
